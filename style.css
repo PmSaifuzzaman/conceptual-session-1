@@ -71,3 +71,25 @@
 .btn:hover{
     color: blue;
 }
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+.about-us{
+    padding: 20px;
+    font-size: 55px;
+    text-align: center;
+}
+.about-text h1{
+    font-style: bold;
+    font-size: 32px;
+}
+.about-text p{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
