@@ -93,3 +93,37 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.service{
+background-image: url(./images/background.png),linear-gradient(90deg,black,black);
+background-position: center;
+background-size: cover;
+color: white;
+
+}
+.service-container{
+display: flex;
+justify-content: space-around;
+}
+.box{
+    width: 220px;
+    height: 300px;
+    box-shadow: 5px 10px 40px gray;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border-radius: 10px;
+}
+.box-icon{
+    height: 100px;
+    margin: 10px;
+}
+
+.box-btn{
+    background-color: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.box-headline{
+    margin: 10px;
+    font-style: bold;
+}
