@@ -98,11 +98,13 @@ background-image: url(./images/background.png),linear-gradient(90deg,black,black
 background-position: center;
 background-size: cover;
 color: white;
+padding-bottom: 40px;
 
 }
 .service-container{
 display: flex;
 justify-content: space-around;
+align-items: center;
 }
 .box{
     width: 220px;
